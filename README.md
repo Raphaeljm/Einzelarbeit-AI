@@ -23,7 +23,7 @@ Embeddings in Datenbank speichern:
 Mit faiss werden die Embeddings in eine Vektorendatenbank gespeichert.
 Gleichzeitig werden die Textsegmente über ein Mapping mit den Embeddings verknüpft und in einem json-File gespeichert.
 
---Notebook: Optimized_LlaMA--
+--Notebook: "Optimized_LlaMA"--
 
 Userfrage einlesen:
 Der User kann nun seine Frage zu einer Geschichte als String eingeben.
