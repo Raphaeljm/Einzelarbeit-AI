@@ -10,6 +10,8 @@ LlamMA kann nun mit dem zusätzlichen Kontext versorgt werden.
 
 Methodik und Verwendete Tools:
 
+--Notebook: "Multiple Text einlesen"--
+
 Text einlesen:
 Mit dem Modul os werden die PDF dateien im Verzeichnis aufgelistet. Mit dem Modul Fitz (PyMuPDF) wird das PDF als text eingelesen.
 Der Text wird dann in segmente unterteilt.
@@ -20,6 +22,8 @@ Mit dem SentenceTransformer aus der Bibliothek sentence_transformers werden die 
 Embeddings in Datenbank speichern:
 Mit faiss werden die Embeddings in eine Vektorendatenbank gespeichert.
 Gleichzeitig werden die Textsegmente über ein Mapping mit den Embeddings verknüpft und in einem json-File gespeichert.
+
+--Notebook: Optimized_LlaMA--
 
 Userfrage einlesen:
 Der User kann nun seine Frage zu einer Geschichte als String eingeben.
